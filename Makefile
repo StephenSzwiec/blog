@@ -59,5 +59,6 @@ clean:
 	rm -f $(TARGET)
 	rm -f .lua/fm.lua 
 	rm -f static/htmx.min.js
+	rm -f $(FONTS)
 	rm -f blog.db 
 	rm -rf .deps
